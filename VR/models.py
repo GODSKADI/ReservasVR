@@ -24,3 +24,4 @@ class Reserva(models.Model):
 class Gafa(models.Model):
 	nombre = models.CharField(max_length = 200)
 	aula = models.ForeignKey(Aula, on_delete = models.CASCADE)
+	
